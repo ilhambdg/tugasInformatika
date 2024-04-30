@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,075)),url(pic/wapic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+.fname {
+    color: limegreen;
+    font-size: 40px;
+}
+
+.lname {
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: springgreen;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 1s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: antiquewhite;
+    position: absolute;
+}
+
+.content h1 {
+    border-style: solid;
+    border-color: springgreen;
+    border-radius: 5px;
+    padding: 10px ;
+    max-width: 600px;
+    font-size: 50px;
+    margin: 50px auto;
+
+}
+
+.content p {
+    margin: 10px auto;
+    font-weight: 100;
+}
+
+.banner2 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,075)),url(pic/pemandangan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 200px;
+    
+}
+
+                  
+
+
+
+.team_outer {
+    border-style: solid;
+    border-color: springgreen;
+    border-radius: 5px;
+    padding: 10px ;
+    max-width: 600px;
+    font-size: 50px;
+    margin: 50px auto;
+
+}
+
+.team_outer p {
+    color:bisque;
+
+}
+
+
